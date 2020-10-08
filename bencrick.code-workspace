@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../slides"
+		},
+		{
+			"path": "../images"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

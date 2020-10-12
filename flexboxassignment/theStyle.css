@@ -1,7 +1,17 @@
 
 #theFlex {
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 5px skyblue;
     justify-content: center;
-    justify-content: space-between;
-    align-items: stetch;
+    align-items: center;
+    padding: 5px;
+}
+
+.gridimage{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
 }

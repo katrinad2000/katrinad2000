@@ -4,8 +4,7 @@
     flex-direction: row;
     width: 100%;
     border: 5px skyblue;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     padding: 5px;
 }
 

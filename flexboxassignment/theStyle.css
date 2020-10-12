@@ -1,9 +1,7 @@
-.row{
+
+#theFlex {
     display: flex;
-}
-
-.column {
-
-    flex:25%;
-    padding:5px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: stetch;
 }

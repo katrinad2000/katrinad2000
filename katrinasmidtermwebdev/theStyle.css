@@ -4,3 +4,12 @@
     flex-wrap: wrap;
     padding: 0 4px;
   }
+
+p{
+  background-color: yellow;
+}
+
+body {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+}

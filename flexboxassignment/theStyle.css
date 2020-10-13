@@ -1,0 +1,14 @@
+
+#theFlex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 5px skyblue;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.gridimage{
+    width: 100px;
+    height: 100px;
+}

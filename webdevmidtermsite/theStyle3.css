@@ -1,0 +1,63 @@
+
+h1 {
+    font-family: 'Pirata One', cursive ;
+    font-size: 30px;
+    color:red;
+    text-align: center;
+    background-color:yellow;
+  }
+  
+
+body{
+    background-color: darkblue;}
+    
+    
+
+.button1 {
+    background-color:yellow;
+    border:none;
+    color:red;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Pirata One', cursive;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    border-radius:50%;
+    width: 25%;
+    height: 25%;
+  }
+  
+  .button1:hover { 
+    background-color: red;
+    color:yellow;
+  } 
+
+
+
+  .button2 {
+    background-color:yellow;
+    border:none;
+    color:red;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Pirata One', cursive;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    border-radius:50%;
+    width: 25%;
+    height: 25%;
+  }
+  
+  .button2:hover { 
+    background-color: red;
+    color:yellow;
+  } 
+
+  #container {
+      text-align: center;
+      justify-content: space-between;
+  }
+
+  https://stackoverflow.com/questions/27671709/position-buttons-next-to-each-other-in-the-center-of-page/37333329

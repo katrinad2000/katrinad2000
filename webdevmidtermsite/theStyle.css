@@ -1,0 +1,80 @@
+h1 {
+    font-family: 'Pirata One', cursive ;
+    font-size: 100px;
+    color:yellow;
+    text-align: center;
+}
+
+body{
+    background-color: darkblue;}
+
+.button {
+    background-color:yellow;
+    border:none;
+    color:red;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Pirata One', cursive;
+    display: inline-block;
+    font-size: 90px;
+    margin: 4px 2px;
+    border-radius:50%;
+    width: 45%;
+    height: 50%;
+}
+
+.button:hover { 
+    background-color: red;
+    color:yellow;
+}
+
+.container {
+    border: 3px solid red;
+    padding: 20px 40px 40px;
+    max-width: 100%;
+    display: flex;
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Pirata One', cursive;
+    font-size: 30px;
+  {} &__image {
+        margin: 20px 30px 0 0;
+        width: 200px;
+        object-fit: contain;
+        align-self: flex-start;
+    }
+    &__text {
+        flex: 1 1 auto;
+    }
+
+  
+}
+.nextbutton{
+    background-color:yellow;
+    
+}
+
+.nextbutton a{
+    float: right;
+    color:yellow;
+    background-color:red;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Pirata One', cursive;
+    font-size: 17px;
+}
+
+.nextbutton a:hover {
+ background-color:blue;
+ color:red;
+}
+
+.button5 {border-radius: 50%;}
+
+<!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons
+https://www.w3schools.com/howto/howto_js_topnav.asp--> 
+https://medium.com/@PavelLaptev/css-weekly-2-an-image-on-the-left-text-on-the-left-a5e59b2acdb5 
+
+

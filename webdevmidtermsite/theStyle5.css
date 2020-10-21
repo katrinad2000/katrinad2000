@@ -1,0 +1,44 @@
+.hovering{
+    display:none;
+}
+.parent:hover .hovering{
+    display: flex;
+    justify-content:center;
+}
+.hovering2{
+    display:none;
+}
+.parent2:hover .hovering2{
+    display: flex;
+    justify-content:center;
+}
+
+
+
+.green{
+    width: 15%;
+    height:auto;
+    
+}
+
+.orange {
+    width: 10%;
+    height:auto;
+}
+
+
+body{
+  background-image: url(../webdevmidtermsite/findthelouvre.png);
+  background-color:blue;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+h1 {
+    font-family: 'Pirata One', cursive ;
+    font-size: 30px;
+    color:red;
+    text-align: center;
+  }
+  

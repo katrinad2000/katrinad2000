@@ -4,11 +4,8 @@
     flex-direction: row;
     width: 100%;
     border: 5px skyblue;
-    justify-content: space-between;
+    justify-content: center;
     padding: 5px;
 }
-
-.gridimage{
-    width: 100px;
-    height: 100px;
-}
+    img {max-width:25%;
+    max-height:25%}

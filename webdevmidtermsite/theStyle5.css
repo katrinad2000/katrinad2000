@@ -13,26 +13,18 @@
     justify-content:center;
 }
 
-
-
-.green{
-    width: 15%;
-    height:auto;
-    
+h1{
+    background-color:navy;
 }
 
-.orange {
-    width: 10%;
-    height:auto;
-}
+
+
 
 
 body{
-  background-image: url(../webdevmidtermsite/findthelouvre.png);
+
   background-color:blue;
-  background-repeat: no-repeat;
-  /* background-position: center; */
-  background-size: cover;
+
 }
 
 h1 {
@@ -40,5 +32,51 @@ h1 {
     font-size: 30px;
     color:red;
     text-align: center;
+  }
+  
+  .hovering{
+    display:none;
+}
+.parent:hover .hovering{
+    display: flex;
+    justify-content:center;
+}
+
+.homebutton{
+    background-color:yellow;
+    
+}
+
+
+.button {
+  background-color:yellow;
+  border:none;
+  color:red;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius:50%;
+  width: 20%;
+  height: 20%;
+}
+
+.button:hover { 
+  background-color: red;
+  color:yellow;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    align-items: center;
   }
   

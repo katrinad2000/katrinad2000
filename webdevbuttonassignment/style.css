@@ -1,0 +1,126 @@
+@charset "utf-8";
+div {
+ display: flex;
+}
+.red button {
+ padding: 100px;
+ border-radius: 150px;
+ background-color: #FF0004;
+ cursor: pointer;
+position: absolute;
+top: 50px;
+	left: 0px;
+	
+}
+.orange button {
+padding: 100px;
+ border-radius: 150px;
+ margin-left: 160;
+ background-color:#F28F07;
+cursor: pointer;
+position: absolute;
+top: 50px;
+	left: 240px;
+}
+
+.yellow button {
+ padding: 100px;
+ border-radius: 150px;
+ margin-left: auto;
+ margin-right: auto;
+ background-color:#F4E517;
+	cursor: pointer;
+position: absolute;
+top: 50px;
+	left: 500px;
+}
+
+.green button {
+ padding: 100px;
+ border-radius: 150px;
+ background-color:#3CBF2E;
+	cursor: pointer;
+position: absolute;
+top: 50px;
+	left: 750px;
+}
+.blue button {
+ padding: 100px;
+ border-radius: 150px;
+ background-color:#0EABFB;
+	cursor: pointer;
+position: absolute;
+top: 50px;
+	left: 1000px;
+}
+.violet button {
+ padding: 100px;
+ border-radius: 150px;
+ background-color:#7235C2;
+	cursor: pointer;
+position: absolute;
+top: 300px;
+	left: 0px;
+}
+.pink button {
+ padding: 100px;
+ border-radius: 150px;
+position: absolute;
+top: 300px;
+	left: 240px;
+ background-color:#EF8586;
+	cursor: pointer;
+}
+.brown button {
+ padding: 100px;
+ border-radius: 150px;
+ position: absolute;
+top: 300px;
+	left: 500px;
+ background-color:#4D380A;
+	cursor: pointer;
+}
+
+.grey button {
+ padding: 100px;
+ border-radius: 150px;
+ position: absolute;
+top: 300px;
+	left: 750px;
+ background-color:#6F6F6F;
+	cursor: pointer;
+}
+.black button {
+ padding: 100px;
+ border-radius: 150px;
+ position: absolute;
+top: 300px;
+	left: 1000px;
+ background-color:#000000;
+	cursor: pointer;
+}
+
+body {
+	animation: 10000ms ease-in-out infinite color-change;
+  }
+  
+  @keyframes color-change {
+	0% {
+	  background-color:red;
+	}
+	20% {
+	  background-color:orange;
+	}
+	40% {
+	  background-color:yellow;
+	}
+	60% {
+	  background-color: green;
+	}
+	80% {
+	  background-color:blue;
+	}
+	100% {
+	  background-color:violet;
+	}
+  }

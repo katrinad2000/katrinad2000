@@ -1,3 +1,31 @@
+
+let body = document.querySelector('body');
+function body(){
+    body {
+        animation: 10000ms ease-in-out infinite color-change;
+      }
+      
+      @keyframes color-change {
+        0% {
+          background-color:red;
+        }
+        20% {
+          background-color:orange;
+        }
+        40% {
+          background-color:yellow;
+        }
+        60% {
+          background-color: green;
+        }
+        80% {
+          background-color:blue;
+        }
+        100% {
+          background-color:violet;
+        }
+    
+}
 let redbod = document.querySelector('body');
 let redText = document.querySelector('h3');
 let redbutt = document.querySelector("#red");

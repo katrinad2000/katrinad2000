@@ -1,0 +1,18 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  #wedding{
+    position:relative; 
+    top:0px; 
+    background-repeat: no-repeat; 
+    display:block;
+    height:100px; 
+    width:135px;
+  }

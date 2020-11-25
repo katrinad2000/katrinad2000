@@ -1,0 +1,18 @@
+h1 {
+    font-family:  'Modak', cursive;
+    font-size: 50px;
+    color:blue;}
+
+body {
+    height: 3000px;
+    background: linear-gradient(141deg,#eedcfc 0%,#b557ff 51%, #8f00ff 75%);
+}
+p {
+        font-family:  'Modak', cursive;
+        font-size: 30px;
+        color:#ff00ea;}
+
+img{
+            width: 100%;
+        }
+        

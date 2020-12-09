@@ -12,7 +12,7 @@ body{
 p{
     background-color:#ac0b4e;;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 50px;
+    font-size: 15px;
     color:white;
 }
 
@@ -78,16 +78,30 @@ h2{
     color:white;
   }
 
-  img{
-    width: 100%;
-}
+ 
+
+
 
 .carousel {
   width: 500px; 
   background-color: rgb(20, 5, 63);
 }
 
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
 
+.column {
+  flex:33.33%;
+  padding: 4px;
+ 
+}
+
+.img{
+  height: 50%;
+}
 
   @-webkit-keyframes fade {
     from {opacity: .4} 
